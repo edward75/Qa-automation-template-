@@ -1,0 +1,15 @@
+{
+  "name": "qa-automation-template",
+  "version": "1.0.0",
+  "description": "Professional Playwright TypeScript QA Automation Framework",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "typescript": "latest",
+    "ts-node": "latest"
+  }
+}

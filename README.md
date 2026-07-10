@@ -14,6 +14,28 @@ This repository demonstrates a maintainable automation architecture using:
 
 ⸻
 
+## Quick Start
+
+Clone the repository:
+
+```bash
+git clone https://github.com/edward75/Qa-automation-template-.git
+cd Qa-automation-template-
+```
+
+Run the setup script:
+
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+Run the tests:
+
+```bash
+npm test
+```
+
 Project Structure
 
 qa-automation-template/

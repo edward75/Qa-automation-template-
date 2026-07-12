@@ -1,4 +1,8 @@
 {
     "baseUrl": "https://example.com",
-    "apiUrl": "https://api.example.com"
+    "apiUrl": "https://api.example.com",
+    "auth": {
+        "username": "testuser",
+        "password": "password"
+    }
 }

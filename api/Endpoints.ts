@@ -1,17 +1,24 @@
+// export const Endpoints = {
+
+//     auth: {
+
+//         login: "/login",
+
+//         logout: "/logout"
+
+//     },
+
+//     users: "/users",
+
+//     vehicles: "/vehicles",
+
+//     reports: "/reports"
+
+// //};
+
 export const Endpoints = {
-
-    auth: {
-
-        login: "/login",
-
-        logout: "/logout"
-
-    },
-
-    users: "/users",
-
-    vehicles: "/vehicles",
-
-    reports: "/reports"
-
+    customers: {
+        getAll: '/customers',
+        create: '/customers'
+    }
 };

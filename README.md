@@ -189,4 +189,8 @@ This repository is being developed as a reusable enterprise-style QA automation 
 * Interview demonstrations
 * Automation framework bootstrapping
 
+## Repository Protection Test
+
+This change is being used to test the protected main branch workflow.
+
 Created by Edward Hiland as a reusable Playwright automation framework template.

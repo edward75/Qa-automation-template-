@@ -1,17 +1,16 @@
 import { test, expect } from '@playwright/test';
 import { BasePage } from '../../pages/BasePage';
 
+test('Homepage loads', async ({ page }) => {
+  const basePage = new BasePage(page);
 
-test('Homepage loads', async ({page})=>{
+  await basePage.navigate('https://playwright.dev');
 
-const basePage = new BasePage(page);
+  await expect(page).toHaveTitle(/Playwright/);
 
-await basePage.navigate(
-'https://playwright.dev'
-);
+  await expect(page).toHaveURL('https://playwright.dev/');
 
-
-await expect(page)
-.toHaveTitle(/Playwright/);
-
+  await expect(
+    page.getByRole('heading', { name: 'Playwright enables reliable' })
+  ).toBeVisible();
 });
